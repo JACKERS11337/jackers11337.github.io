@@ -152,6 +152,7 @@ body {
     flex-wrap: wrap;
     list-style: none;
     gap: 1em;
+    justify-content: center;
   }
 
   .home .container .content .skills .logos img {
