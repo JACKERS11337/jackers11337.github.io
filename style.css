@@ -110,3 +110,12 @@ body {
 .home .container .content .skills .logos img:hover {
   transform: translateY(-10px);
 } /*# sourceMappingURL=style.css.map */
+
+@media (max-width: 1024px) {
+  .home .container .content .hero-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+}
