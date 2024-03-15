@@ -112,10 +112,65 @@ body {
 } /*# sourceMappingURL=style.css.map */
 
 @media (max-width: 1024px) {
+  .home .container {
+    margin: 10px auto;
+    max-width: 1220px;
+    padding: 0 4rem;
+  }
+
   .home .container .content .hero-main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 0;
+  }
+
+  .home .container .content .hero-main .hero-text h1 {
+    color: #2d2e32;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 17px;
+  }
+
+  .home .container .content .hero-main .hero-text img {
+    height: 30px;
+    position: absolute;
+    width: 30px;
+  }
+
+  .home .container .content .skills {
+    color: #767676;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  .home .container .content .skills .logos {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1em;
+  }
+
+  .home .container .content .skills .logos img {
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-left: 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .home .container .content .skills p {
+    border-right: none;
+    border-bottom: 2px solid rgba(45, 46, 50, 0.5);
+    color: #2d2e32;
+    font-weight: 600;
+    margin-right: 0;
+    padding-right: 0;
   }
 }
